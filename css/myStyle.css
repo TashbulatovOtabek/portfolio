@@ -1,0 +1,23 @@
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
