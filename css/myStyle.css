@@ -14,3 +14,101 @@ body {
     padding: 0;
 }
 
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+    overflow-x: hidden;
+}
+
+.iconsWidht {
+    width: 150px;
+    height: 150px;
+}
+
+.header {
+    overflow-x: hidden;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow-x: hidden;
+    background: url("../img/background.jpg");
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+
+.pos {
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    transition: all .4s linear;
+}
+
+.web-container {
+    z-index: 2;
+}
+
+/*  */
+
+
+.html-container,
+.css-container,
+.js-container,
+.react-container,
+.reactNative-container,
+.php-container{
+    z-index: 1;
+    opacity: 0;
+}
+
+
+
+.html-pos {
+    transform: translate(0vw, -25vh);
+    opacity: 1 !important;
+    transition: all .5s ease-out;
+}
+
+.css-pos {
+    transform: translate(-13vw, -11vh);
+    opacity: 1 !important;
+    transition: all .5s ease-out;
+}
+
+.js-pos {
+    transform: translate(12vw, -11vh);
+    opacity: 1 !important;
+    transition: all .5s ease-out;
+}
+
+.react-pos {
+    transform: translate(-12vw, 16vh);
+    opacity: 1 !important;
+    transition: all .5s ease-out;
+}
+
+.reactNative-pos {
+    transform: translate(0vw, 26vh);
+    opacity: 1 !important;
+    transition: all .5s ease-out;
+}
+
+.php-pos {
+    transform: translate(12vw, 16vh);
+    opacity: 1 !important;
+    transition: all .5s ease-out;
+}
+
